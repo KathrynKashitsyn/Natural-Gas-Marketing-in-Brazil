@@ -35,7 +35,6 @@
 "2020";3;"Térmico";"Sudeste-Sul-Centro-Oeste";18,7;4607
 "2020";3;"Não Térmico";"Sul-Centro-Oeste";41,1;3546
 "2020";4;"Não Térmico";"Norte-Nordeste";45,5;5120
-"2020";4;"Térmico";"Norte-Nordeste";32,7;5523
 "2020";4;"Não Térmico";"Sudeste";45,5;17053
 "2020";4;"Térmico";"Sudeste-Sul-Centro-Oeste";16,2;2714
 "2020";4;"Não Térmico";"Sul-Centro-Oeste";43,2;3698
@@ -299,4 +298,5 @@
 "2024";8;"Não Térmico";"Sul-Centro-Oeste";78,1;4564
 "2024";8;"Térmico";"Norte-Nordeste";NA;11933
 "2024";8;"Térmico";"Sudeste-Sul-Centro-Oeste";NA;2626
+
 
