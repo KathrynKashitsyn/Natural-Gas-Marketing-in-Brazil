@@ -1,49 +1,39 @@
-### **METADATA FOR NATURAL GAS COMMERCIALIZATION**  
+# METADATA FOR NATURAL GAS COMMERCIALIZATION  
 **SUPERINTENDENCY OF INFRASTRUCTURE AND MOVEMENT**  
 
-#### **1) Sales to Distributors and Free Consumers**  
+---
 
-| **VARIABLE NAME**       | **VARIABLE TYPE**   | **VARIABLE DESCRIPTION** |
-|-------------------------|---------------------|--------------------------|
-| **YEAR**                | Integer             | Year of gas commercialization |
-| **MONTH**               | Integer             | Month of gas commercialization |
-| **MARKET TYPE**         | Text                | Market type served by gas sales: *Thermoelectric* or *Non-Thermoelectric* |
-| **AGGREGATED REGION**   | Text                | Aggregation of Brazilian geographic regions |
-| **PRICE (BRL per MMBtu)** | Real Number       | Weighted average natural gas sales price, including taxes, in Brazilian Reais per million British Thermal Units (BTUs) |
-| **VOLUME (Thousand m³/Day)** | Integer       | Daily average gas sales volume in thousand cubic meters (1,000 m³/day) |
+## 1) Sales to Distributors and Free Consumers  
 
-#### **2) Sales Between Producers**  
-
-| **VARIABLE NAME**       | **VARIABLE TYPE**   | **VARIABLE DESCRIPTION** |
-|-------------------------|---------------------|--------------------------|
-| **YEAR**                | Integer             | Year of gas commercialization |
-| **MONTH**               | Integer             | Month of gas commercialization |
-| **AGGREGATED BASIN**    | Text                | Aggregation of Brazilian sedimentary basins. *Note:* The category "Other Basins" includes all basins except Santos and Campos. |
-| **PRICE (BRL per MMBtu)** | Real Number       | Weighted average natural gas sales price, including taxes, in BRL per million BTUs |
-| **VOLUME (Thousand m³/Day)** | Integer       | Daily average gas sales volume in thousand cubic meters (1,000 m³/day) |
+| **VARIABLE NAME**       | **VARIABLE TYPE** | **DESCRIPTION** |
+|-------------------------|-------------------|----------------|
+| **YEAR**                | Integer           | Year of gas commercialization |
+| **MONTH**               | Integer           | Month of gas commercialization |
+| **MARKET TYPE**         | Text              | Market type: "Thermoelectric" or "Non-Thermoelectric" |
+| **AGGREGATED REGION**   | Text              | Aggregation of Brazilian geographic regions |
+| **PRICE (BRL per MMBtu)** | Real Number     | Weighted average price (including taxes) in BRL per million BTUs |
+| **VOLUME (Thousand m³/Day)** | Integer   | Daily average volume (1,000 m³/day) |
 
 ---
 
-### **Additional Information**  
+## 2) Sales Between Producers  
 
-| **FIELD**               | **VALUE** |
-|-------------------------|----------|
-| **DESCRIPTION**         | The open dataset comprises two files: <br> • **Sales to distributors/free consumers**: Natural gas sales to local distribution companies or free consumers authorized by states to purchase directly from sellers. Data include volume-weighted average prices and monthly commercial volumes, aggregated by Brazilian regions to preserve confidentiality. <br> • **Sales between producers**: Natural gas sales among producers. Data include volume-weighted prices and monthly volumes, aggregated by sedimentary basins to preserve confidentiality. |
-| **SOURCE CATALOG**      | [https://www.gov.br/am/pt-br/dados-abertos](https://www.gov.br/am/pt-br/dados-abertos) |
-| **RESPONSIBLE AGENCY**  | Superintendency of Infrastructure and Movement (SIM/ANP) |
-| **WEB ADDRESS**         | [https://www.gov.br/am/pt-br/dados-abertos/comercializacao-de-gas-natural](https://www.gov.br/am/pt-br/dados-abertos/comercializacao-de-gas-natural) |
-| **FILE FORMAT**         | CSV |
-| **FREQUENCY**           | Monthly |
-| **DATA SOURCE**         | SIM/ANP. *Note:* Declaratory data from companies, per Article 12 of ANP Resolution No. 52/2011. |
-| **AGGREGATION**         | Data are aggregated by geographic region or sedimentary basins to preserve commercial confidentiality. |
-| **CONTACT**             | [faleconosco@anp.gov.br](mailto:faleconosco@anp.gov.br) |
+| **VARIABLE NAME**       | **VARIABLE TYPE** | **DESCRIPTION** |
+|-------------------------|-------------------|----------------|
+| **YEAR**                | Integer           | Year of gas commercialization |
+| **MONTH**               | Integer           | Month of gas commercialization |
+| **AGGREGATED BASIN**    | Text              | Aggregation of Brazilian sedimentary basins. *Note:* "Other Basins" excludes Santos and Campos. |
+| **PRICE (BRL per MMBtu)** | Real Number     | Weighted average price (including taxes) in BRL per million BTUs |
+| **VOLUME (Thousand m³/Day)** | Integer   | Daily average volume (1,000 m³/day) |
 
 ---
 
-### **Key Notes**  
-- **Units**:  
-  - Prices: BRL per MMBtu (*Brazilian Reais per million BTUs*).  
-  - Volumes: Thousand cubic meters/day (1,000 m³/day).  
-- **Confidentiality**: Data aggregation protects seller identities.  
+## Additional Information  
 
-Let me know if you need further refinements!
+| **FIELD**              | **DETAILS** |
+|------------------------|------------|
+| **DESCRIPTION**        | Dataset includes: <br> • Sales to distributors/free consumers <br> • Sales between producers <br> *Data aggregated to preserve confidentiality* |
+| **SOURCE CATALOG**     | [ANP Open Data Portal](https://www.gov.br/am/pt-br/dados-abertos) |
+| **RESPONSIBLE AGENCY** | Superintendency of Infrastructure and Movement (SIM/ANP) |
+| **FREQUENCY**          | Monthly |
+| **CONTACT**            | [faleconosco@anp.gov.br](mailto:faleconosco@anp.gov.br) |
