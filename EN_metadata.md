@@ -12,7 +12,7 @@
 | **MARKET TYPE**         | Text              | Market type: "Thermoelectric" or "Non-Thermoelectric" |
 | **AGGREGATED REGION**   | Text              | Aggregation of Brazilian geographic regions |
 | **PRICE (BRL per MMBtu)** | Real Number     | Weighted average price (including taxes) in BRL per million BTUs |
-| **VOLUME (Thousand m³/Day)** | Integer   | Daily average volume (1,000 m³/day) |
+| **VOLUME (Thousand m³/Day)** | Integer   | Daily average volume (1,000 m³/day). 1 MMBtu (Million British Thermal Units) is equivalent to approximately 28.3168 cubic meters (m³) of natural gas.  |
 
 ---
 
