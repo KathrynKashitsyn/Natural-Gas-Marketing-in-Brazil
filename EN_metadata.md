@@ -15,9 +15,12 @@
 | **VOLUME (Thousand m³/Day)** | Integer   | Daily average volume (1,000 m³/day) |
 
 ---
-**Thermoelectric:** This market involves devices like thermoelectric generators (TEGs) and thermoelectric coolers (TECs). TEGs convert heat into electricity, while TECs use electricity to create a temperature difference for cooling. Examples include their use in space, automobiles, and various industrial applications. 
 
-**Non-Thermoelectric:** This category encompasses all other market types that do not involve thermoelectric principles. This could include various industries like food processing, electronics, or other sectors that don't utilize the specific heat-to-electricity or electricity-to-cooling conversion of thermoelectric devices. 
+The natural gas market can be segmented into **"thermoelectric"** (used for power generation) and **"non-thermoelectric"** (other uses like industrial, residential, commercial, and transportation) markets. Here’s an overview of both segments:
+
+**Thermoelectric:** Natural gas is used in power plants to generate electricity via gas turbines, combined-cycle plants, or cogeneration systems. This market involves devices like thermoelectric generators (TEGs) and thermoelectric coolers (TECs). TEGs convert heat into electricity, while TECs use electricity to create a temperature difference for cooling. Examples include their use in space, automobiles, and various industrial applications. 
+
+**Non-Thermoelectric:** This category encompasses all other market types that do not involve thermoelectric principles - sectors where gas is used not for electricity. This could include various industries like food processing, electronics, or other sectors that don't utilize the specific heat-to-electricity or electricity-to-cooling conversion of thermoelectric devices. 
 
 ---
 ## 2) Sales Between Producers  
