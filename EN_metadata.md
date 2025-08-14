@@ -15,9 +15,9 @@
 | **VOLUME (Thousand m³/Day)** | Integer   | Daily average volume (1,000 m³/day) |
 
 ---
-Thermoelectric: This market involves devices like thermoelectric generators (TEGs) and thermoelectric coolers (TECs). TEGs convert heat into electricity, while TECs use electricity to create a temperature difference for cooling. Examples include their use in space, automobiles, and various industrial applications. 
+**Thermoelectric:** This market involves devices like thermoelectric generators (TEGs) and thermoelectric coolers (TECs). TEGs convert heat into electricity, while TECs use electricity to create a temperature difference for cooling. Examples include their use in space, automobiles, and various industrial applications. 
 
-Non-Thermoelectric: This category encompasses all other market types that do not involve thermoelectric principles. This could include various industries like food processing, electronics, or other sectors that don't utilize the specific heat-to-electricity or electricity-to-cooling conversion of thermoelectric devices. 
+**Non-Thermoelectric:** This category encompasses all other market types that do not involve thermoelectric principles. This could include various industries like food processing, electronics, or other sectors that don't utilize the specific heat-to-electricity or electricity-to-cooling conversion of thermoelectric devices. 
 
 ---
 ## 2) Sales Between Producers  
